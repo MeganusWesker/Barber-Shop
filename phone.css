@@ -1,0 +1,106 @@
+.Testimonials-row{
+    flex-direction: column;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.service-box{
+    flex-direction: column;
+}
+
+.single-service:hover .service-desc{
+    bottom: 30%;
+    opacity: 1;
+}
+
+.service-desc h1{
+   font-size: 16px;
+}
+.service-desc p{
+    font-size: 10px;
+}
+
+
+
+/* -----------banner--------------- */
+
+#banner-text h1{
+    font-size: 3.5rem;
+}
+
+#banner-text p{
+    font-size: 1rem;
+}
+
+.banner-btn a{
+    display: block;
+    
+    margin: 10px 0px;
+}
+
+.banner-btn{
+    width: 50%;
+    margin: 20px auto;
+}
+
+#banner-logo{
+    width: 10rem;
+    position: relative;
+    left: 15px;
+    top: 55px;
+}
+
+.logo{
+    width: 100%;
+    position: absolute;
+}
+
+
+
+
+/* --------Features-------- */
+
+
+.feature-info{
+    flex-direction: column;
+}
+
+.tittle-text h1{
+    font-size: 2rem;
+}
+
+.feature-description{
+    width: 90%;
+    margin: auto;
+}
+.info{
+    margin: 20px 0px;
+}
+.feature-info-image{
+    height: 18rem;
+    text-align: center;
+   
+}
+
+.feature-info-image img{
+    width: 80%;
+    
+}
+
+
+
+
+/* !---------- Footer-------- --*/
+
+
+.footer-right{
+    width: 80%;
+    margin: auto;
+}
+
+
+.footer-email{
+    font-size: 12px;
+}
